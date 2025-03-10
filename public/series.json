@@ -1,0 +1,174 @@
+{
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "id": "1",
+          "season": "1",
+          "episode": "1",
+          "episodeName": "Iron Man",
+          "image": "/The-Avengers.jpg",
+          "info": "fdgf gdokghhg djfghg kdfjhdg jfiog iopjdiofghg iopijgohg uygf uihfgg ofjv opgvjb jg opjfb ojg opgbv podfvj duifhvlk"
+        },
+        {
+          "id": "2",
+          "season": "1",
+          "episode": "2",
+          "episodeName": "Hulk",
+          "image": "/The-Avengers.jpg",
+          "info": "fdgf gdokghhg djfghg kdfjhdg jfiog iopjdiofghg iopijgohg uygf uihfgg ofjv opgvjb jg opjfb ojg opgbv podfvj duifhvlk"
+        },
+        {
+          "id": "3",
+          "season": "1",
+          "episode": "3",
+          "episodeName": "Thor",
+          "image": "/The-Avengers.jpg",
+          "info": "fdgf gdokghhg djfghg kdfjhdg jfiog iopjdiofghg iopijgohg uygf uihfgg ofjv opgvjb jg opjfb ojg opgbv podfvj duifhvlk"
+        },
+        {
+          "id": "4",
+          "season": "1",
+          "episode": "4",
+          "episodeName": "Captain America",
+          "image": "/The-Avengers.jpg",
+          "info": "fdgf gdokghhg djfghg kdfjhdg jfiog iopjdiofghg iopijgohg uygf uihfgg ofjv opgvjb jg opjfb ojg opgbv podfvj duifhvlk"
+        },
+        {
+          "id": "5",
+          "season": "1",
+          "episode": "5",
+          "episodeName": "Ant Man",
+          "image": "/The-Avengers.jpg",
+          "info": "fdgf gdokghhg djfghg kdfjhdg jfiog iopjdiofghg iopijgohg uygf uihfgg ofjv opgvjb jg opjfb ojg opgbv podfvj duifhvlk"
+        },
+        {
+          "id": "6",
+          "season": "1",
+          "episode": "6",
+          "episodeName": "The Avengers",
+          "image": "/The-Avengers.jpg",
+          "info": "fdgf gdokghhg djfghg kdfjhdg jfiog iopjdiofghg iopijgohg uygf uihfgg ofjv opgvjb jg opjfb ojg opgbv podfvj duifhvlk"
+        },
+        {
+          "id": "7",
+          "season": "1",
+          "episode": "7",
+          "episodeName": "Guardians of Galaxy",
+          "image": "/The-Avengers.jpg",
+          "info": "fdgf gdokghhg djfghg kdfjhdg jfiog iopjdiofghg iopijgohg uygf uihfgg ofjv opgvjb jg opjfb ojg opgbv podfvj duifhvlk"
+        },
+        {
+          "id": "8",
+          "season": "1",
+          "episode": "8",
+          "episodeName": "Doctor Strange",
+          "image": "/The-Avengers.jpg",
+          "info": "fdgf gdokghhg djfghg kdfjhdg jfiog iopjdiofghg iopijgohg uygf uihfgg ofjv opgvjb jg opjfb ojg opgbv podfvj duifhvlk"
+        },
+        {
+          "id": "9",
+          "season": "1",
+          "episode": "9",
+          "episodeName": "Breaking Bad",
+          "image": "/The-Avengers.jpg",
+          "info": "fdgf gdokghhg djfghg kdfjhdg jfiog iopjdiofghg iopijgohg uygf uihfgg ofjv opgvjb jg opjfb ojg opgbv podfvj duifhvlk"
+        },
+        {
+          "id": "10",
+          "season": "1",
+          "episode": "10",
+          "episodeName": "Better Call Saul",
+          "image": "/The-Avengers.jpg",
+          "info": "fdgf gdokghhg djfghg kdfjhdg jfiog iopjdiofghg iopijgohg uygf uihfgg ofjv opgvjb jg opjfb ojg opgbv podfvj duifhvlk"
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "id": "1",
+          "season": "2",
+          "episode": "1",
+          "episodeName": "Iron Man",
+          "image": "/The-Avengers.jpg",
+          "info": "fdgf gdokghhg djfghg kdfjhdg jfiog iopjdiofghg iopijgohg uygf uihfgg ofjv opgvjb jg opjfb ojg opgbv podfvj duifhvlk"
+        },
+        {
+          "id": "2",
+          "season": "2",
+          "episode": "2",
+          "episodeName": "Hulk",
+          "image": "/The-Avengers.jpg",
+          "info": "fdgf gdokghhg djfghg kdfjhdg jfiog iopjdiofghg iopijgohg uygf uihfgg ofjv opgvjb jg opjfb ojg opgbv podfvj duifhvlk"
+        },
+        {
+          "id": "3",
+          "season": "2",
+          "episode": "3",
+          "episodeName": "Thor",
+          "image": "/The-Avengers.jpg",
+          "info": "fdgf gdokghhg djfghg kdfjhdg jfiog iopjdiofghg iopijgohg uygf uihfgg ofjv opgvjb jg opjfb ojg opgbv podfvj duifhvlk"
+        },
+        {
+          "id": "4",
+          "season": "2",
+          "episode": "4",
+          "episodeName": "Captain America",
+          "image": "/The-Avengers.jpg",
+          "info": "fdgf gdokghhg djfghg kdfjhdg jfiog iopjdiofghg iopijgohg uygf uihfgg ofjv opgvjb jg opjfb ojg opgbv podfvj duifhvlk"
+        },
+        {
+          "id": "5",
+          "season": "2",
+          "episode": "5",
+          "episodeName": "Ant Man",
+          "image": "/The-Avengers.jpg",
+          "info": "fdgf gdokghhg djfghg kdfjhdg jfiog iopjdiofghg iopijgohg uygf uihfgg ofjv opgvjb jg opjfb ojg opgbv podfvj duifhvlk"
+        },
+        {
+          "id": "6",
+          "season": "2",
+          "episode": "6",
+          "episodeName": "The Avengers",
+          "image": "/The-Avengers.jpg",
+          "info": "fdgf gdokghhg djfghg kdfjhdg jfiog iopjdiofghg iopijgohg uygf uihfgg ofjv opgvjb jg opjfb ojg opgbv podfvj duifhvlk"
+        },
+        {
+          "id": "7",
+          "season": "2",
+          "episode": "7",
+          "episodeName": "Guardians of Galaxy",
+          "image": "/The-Avengers.jpg",
+          "info": "fdgf gdokghhg djfghg kdfjhdg jfiog iopjdiofghg iopijgohg uygf uihfgg ofjv opgvjb jg opjfb ojg opgbv podfvj duifhvlk"
+        },
+        {
+          "id": "8",
+          "season": "2",
+          "episode": "8",
+          "episodeName": "Doctor Strange",
+          "image": "/The-Avengers.jpg",
+          "info": "fdgf gdokghhg djfghg kdfjhdg jfiog iopjdiofghg iopijgohg uygf uihfgg ofjv opgvjb jg opjfb ojg opgbv podfvj duifhvlk"
+        },
+        {
+          "id": "9",
+          "season": "2",
+          "episode": "9",
+          "episodeName": "Breaking Bad",
+          "image": "/The-Avengers.jpg",
+          "info": "fdgf gdokghhg djfghg kdfjhdg jfiog iopjdiofghg iopijgohg uygf uihfgg ofjv opgvjb jg opjfb ojg opgbv podfvj duifhvlk"
+        },
+        {
+          "id": "10",
+          "season": "2",
+          "episode": "10",
+          "episodeName": "Better Call Saul",
+          "image": "/The-Avengers.jpg",
+          "info": "fdgf gdokghhg djfghg kdfjhdg jfiog iopjdiofghg iopijgohg uygf uihfgg ofjv opgvjb jg opjfb ojg opgbv podfvj duifhvlk"
+        }
+      ]
+    }
+  ]
+}

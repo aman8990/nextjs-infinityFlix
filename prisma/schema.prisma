@@ -1,0 +1,139 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id               String    @id @default(auto()) @map("_id") @db.ObjectId
+  name             String?
+  email            String    @unique
+  image            String?
+  emailVerified    DateTime?
+  role             String    @default("user")
+  hashedPassword   String?
+  otp              String?
+  otpExpires       DateTime?
+  forgotOtp        String?
+  forgotOtpExpires DateTime?
+  subscribedUpto   DateTime?
+  paymentId        String?
+  active           Boolean   @default(false)
+  createdAt        DateTime  @default(now())
+  updatedAt        DateTime  @updatedAt
+
+  accounts         Account[]
+  continueWatching ContinueWatching[]
+  wishlist         Wishlist[]
+
+  @@map("users")
+}
+
+model Account {
+  id                String  @id @default(auto()) @map("_id") @db.ObjectId
+  userId            String  @db.ObjectId
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String?
+  access_token      String?
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String?
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@unique([provider, providerAccountId])
+  @@map("accounts")
+}
+
+model Movie {
+  id           String    @id @default(auto()) @map("_id") @db.ObjectId
+  title        String
+  description  String
+  videoUrl     String
+  thumbnailUrl String
+  episodeId    String?   @db.ObjectId
+  isSeries     Boolean?
+  categories   String[]
+  createdAt    DateTime? @default(now())
+  updatedAt    DateTime? @updatedAt
+
+  continueWatching ContinueWatching[]
+  episodes         Episode[]          @relation("MovieEpisodes")
+  wishlist         Wishlist[]
+
+  @@map("movies")
+}
+
+model ContinueWatching {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  userId    String   @db.ObjectId
+  movieId   String?  @db.ObjectId
+  episodeId String?  @db.ObjectId
+  progress  Int
+  runtime   Int
+  updatedAt DateTime @updatedAt
+
+  movie   Movie?   @relation(fields: [movieId], references: [id], onDelete: Cascade)
+  episode Episode? @relation(fields: [episodeId], references: [id], onDelete: Cascade)
+  User    User     @relation(fields: [userId], references: [id])
+
+  @@unique([userId, movieId, episodeId])
+  @@map("continueWatching")
+}
+
+model Wishlist {
+  id      String @id @default(auto()) @map("_id") @db.ObjectId
+  userId  String @db.ObjectId
+  user    User   @relation(fields: [userId], references: [id])
+  movieId String @db.ObjectId
+  movie   Movie  @relation(fields: [movieId], references: [id])
+
+  @@map("wishlist")
+}
+
+model Episode {
+  id            String    @id @default(auto()) @map("_id") @db.ObjectId
+  movieId       String    @db.ObjectId
+  title         String
+  season        Int
+  episodeNumber Int
+  description   String
+  thumbnailUrl  String
+  videoUrl      String
+  createdAt     DateTime? @default(now())
+  updatedAt     DateTime? @updatedAt
+
+  movie            Movie              @relation("MovieEpisodes", fields: [movieId], references: [id], onDelete: Cascade)
+  ContinueWatching ContinueWatching[]
+
+  @@map("episodes")
+}
+
+model Payment {
+  id            String   @id @default(auto()) @map("_id") @db.ObjectId
+  userId        String   @db.ObjectId
+  amount        Int
+  currency      String   @default("usd")
+  paymentId     String?
+  paymentStatus String   @default("failed")
+  createdAt     DateTime @default(now())
+
+  @@map("payments")
+}
+
+model ContactUs {
+  id          String @id @default(auto()) @map("_id") @db.ObjectId()
+  name        String
+  email       String
+  subject     String
+  description String
+
+  @@map("contactUs")
+}
