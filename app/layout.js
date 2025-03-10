@@ -4,6 +4,7 @@ import Header from './_components/Header/Header';
 import HeaderMobile from './_components/HeaderMobile/FooterMobile';
 import AuthContext from './_context/AuthContext';
 import ToasterContext from './_context/ToasterContext';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
       <body className={`${inter.className} antialiased bg-black text-red-50`}>
         <AuthContext>
           <ToasterContext />
+          <SpeedInsights />
           <Header />
           <HeaderMobile />
           <div>{children}</div>
