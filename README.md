@@ -64,3 +64,38 @@ A full-featured, modern streaming platform built with **Next.js 15**, delivering
 - **Date-fns** – Date utilities
 
 ---
+
+## 📂 Project Structure
+
+```bash
+project/
+  ├── middleware.js        # Middleware for route protection (auth guard)
+  ├── prisma/
+  │   └── schema.prisma    # Prisma schema for MongoDB
+
+  app/
+    ├── api/               # API endpoints (auth, checkout, etc.)
+    ├── _actions/          # Next.js Server Actions (getMovies, getWishlist, getEpisode etc.)
+    ├── _context/          # React Contexts (e.g. Auth context, Toast context)
+    ├── _components/       # Reusable UI components (buttons, input, header etc.)
+    ├── _utils/            # Utility/helper functions
+    ├── _hooks/            # Custom hooks (useCart, useOrders)
+    ├── _libs/             # Core libraries (prismadb, emailSender, fetcher etc.)
+    ├── account/           # User account info and settings
+    ├── (site)/            # App Homepage
+    ├── login/             # Login page
+    ├── search/            # Movie search
+    ├── hollywood/         # Hollywood movie page
+    ├── video/          
+    │   └── [videoId]/     # Video player page
+    ├── adminPanel/          
+    │   └── dashboard/     # Admin panel dashboard
+    │   └── createMovie/   # Create new movie
+    │   └── updateMovie/   # Update movie
+    │   ||                 # More routes
+    ├── layout.js          # Root layout for the app
+    ├── globals.css        # Global Tailwind styles
+    └── not-found.js       # Custom 404 error page
+```
+
+---
