@@ -79,7 +79,7 @@ project/
     ├── _context/          # React Contexts (e.g. Auth context, Toast context)
     ├── _components/       # Reusable UI components (buttons, input, header etc.)
     ├── _utils/            # Utility/helper functions
-    ├── _hooks/            # Custom hooks (useCart, useOrders)
+    ├── _hooks/            # Custom hooks (usePayments, useWishlistStore)
     ├── _libs/             # Core libraries (prismadb, emailSender, fetcher etc.)
     ├── account/           # User account info and settings
     ├── (site)/            # App Homepage
