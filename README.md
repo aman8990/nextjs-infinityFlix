@@ -99,3 +99,63 @@ project/
 ```
 
 ---
+
+
+# 🧪 Getting Started
+
+Follow these steps to set up the project locally.
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/aman8990/nextjs-infinityFlix.git
+cd nextjs-infinityFlix
+```
+
+## 2. Install Dependencies
+
+```bash
+npm install
+```
+
+## 3. Set Up Environment Variables
+
+```bash
+DATABASE_URL=mongodb+srv://<username>:<password>@cluster.mongodb.net/dbname
+NEXTAUTH_SECRET=your_nextauth_secret
+NEXTAUTH_URL=http://localhost:3000
+
+GITHUB_ID=your_github_client_id
+GITHUB_SECRET=your_github_client_secret
+
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+
+EMAIL_USERNAME=your_name@service.com
+EMAIL_PASSWORD=your_password
+EMAIL_FROM=your_email@gmail.com
+
+STRIPE_SECRET_KEY=your_stripe_secret_key
+STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
+STRIPE_WEBHOOK_SECRET=your_stripe_webhook_key
+```
+
+## 4. Generate Prisma Client
+
+```bash
+npx prisma generate
+```
+
+## 5. Start Development Server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📬 Contact
+
+Created by [Aman Kumar](https://github.com/aman8990)  
+📧 Email: [amandalal899@gmail.com](mailto:amandalal899@gmail.com)
+
