@@ -11,7 +11,8 @@ A full-featured, modern streaming platform built with **Next.js 15**, delivering
 ## 🧩 Features
 
 - 🔐 User authentication (Email/Password via Credentials + Google & Github oAuth)
-- 📺 HLS Player for adaptive video playback
+- 📺 HLS video streaming with multiple resolutions (144p–1080p)
+- 🌐 Multi-audio streaming support (Hindi & English)
 - 💳 Stripe payment integration (fully integrated with webhook)
 - 📧 Email service with Nodemailer
 - 📬 Email verification via otp
@@ -20,6 +21,18 @@ A full-featured, modern streaming platform built with **Next.js 15**, delivering
 - 🔒 Protected routes using NextAuth and middleware
 - 🧠 Zustand for global state management
 - ⚙️ **Admin Panel** for managing videos, users, subscriptions, and more
+
+---
+
+## 🎥 Streaming Infrastructure
+
+- 🎞️ **GitHub Pages as a CDN** to host HLS content
+- 📂 All HLS video resolutions available: `144p`, `480p`, `720p`, `1080p`
+- 🎧 Multiple audio tracks in **Hindi** and **English**
+- 🧠 A dynamic `master.m3u8` playlist is streamed, which allows:
+  - Automatic or manual resolution switching
+  - Language (audio) selection
+  - Adaptive streaming using **HLS.js**
 
 ---
 
