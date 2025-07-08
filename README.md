@@ -1,6 +1,6 @@
 # 🎬 Next.js InfinityFlix App
 
-A full-featured, modern streaming platform built with **Next.js 15**, delivering a Netflix-style experience with user authentication, video streaming, Stripe integration, and responsive design.
+A full-featured, modern streaming platform built with **Next.js 15**, delivering a complete experience with user authentication, video streaming, Stripe integration, and responsive design.
 
 ## 🚀 Live Demo
 
