@@ -1,4 +1,5 @@
 import getCurrentUser from '../_actions/getCurrentUser';
+import Hint from './_component/Hint';
 import Subscribe from './_component/Subscribe';
 
 async function Page() {
@@ -12,6 +13,7 @@ async function Page() {
   return (
     <div className="fixed top-[4.5rem] md:top-[7rem] inset-0 pb-24 overflow-y-scroll scrollbar-none">
       <Subscribe hasSubscription={hasSubscription} />
+      <Hint />
     </div>
   );
 }
