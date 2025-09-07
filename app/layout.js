@@ -9,7 +9,7 @@ import { SpeedInsights } from '@vercel/speed-insights/react';
 const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
 export const metadata = {
-  title: 'Infifnity Flix',
+  title: 'Infinity Flix',
   description: 'Stream Your Favorite Movies',
 };
 
